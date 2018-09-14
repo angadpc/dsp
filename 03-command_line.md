@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+1. pwd - shows current working directory path 
+2. mkdir - create a directory 
+3. rmdir - delete a directory 
+4. touch file_name(s) - creates a file 
+5. rm file_name(s) - deletes file, rm -rf file_name(s) - recursively deletes all files/folders which are in a tree structure
+6. mv original_file new_file - renames a file 
+7. ls -a - lists all hidden files 
+8. cp dir1/file dir2
+9. piping = ex: cat filename|less - this takes the output of cat filename, and combines it with the command less. piping essentially group commands together to execute them from one output to another 
+10. grep - scan the document and present the user with the desired result. Sort of like the ctrl+F shortcut on a Mac. 
 
 ---
 
