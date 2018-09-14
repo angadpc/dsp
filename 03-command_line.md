@@ -53,7 +53,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* ls -R - Displays all of the subdirectories as well 
+* ls -1 - Displays each entry on a line
+* ls -d - Displays only directories
+* ls -m - Displays names as CSV format 
+* ls -F - Flags all file names 
 
 ---
 
@@ -61,7 +65,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* Use = many Unix commands accepts standard input from command line but a lot don't. xargs allows us to allow standard input arguments to be added to Unix command that by default do not support standard input
+* example use case = find /tmp -mtime +14 | xargs rm. Here, the find command is used to find files that are dated older than two weeks, which are then piped to xargs. This piping allows you to use another command such as 'rm" which is used in the above example, to delete all files piped to xargs through the find command. 
 
  
 
