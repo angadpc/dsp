@@ -37,13 +37,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-*`ls`  - shows all the files in a directory 
-*`ls -a`  - shows all files in directory, including hidden files 
-*`ls -l`  - shows meta data 
-*`ls -lh`  - shows meta data with file sizes listed as 150B or 3.5K etc. 
-*`ls -lah`  - shows meta data with file size listed as 150B or 3.5K etc, AND shows hidden files with the same meta data
-*`ls -t`  - sorts entries in a folder by time 
-*`ls -Glp`  - shows meta data with inhibited group information, where a / is appended at the end of a dir name
+* `ls`  - shows all the files in a directory 
+* `ls -a`  - shows all files in directory, including hidden files 
+* `ls -l`  - shows meta data 
+* `ls -lh`  - shows meta data with file sizes listed as 150B or 3.5K etc. 
+* `ls -lah`  - shows meta data with file size listed as 150B or 3.5K etc, AND shows hidden files with the same meta data
+* `ls -t`  - sorts entries in a folder by time 
+* `ls -Glp`  - shows meta data with inhibited group information, where a / is appended at the end of a dir name
 
 
 
