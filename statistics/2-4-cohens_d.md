@@ -1,6 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
-Solution: Cohen's Effect essentially finds the difference between the MEAN quantities of two variables. So in the case of Total Weight in pounds for first born babies & the rest, it takes the MEAN weight of all first born babies & the MEAN weight of all the others & finds the mean difference which has to be divided by the combined standard deviations of the two groups. Combined standard deviation is the standard deviation of the distribution formed from the combination of distributions of 
+Solution: Cohen's Effect essentially finds the difference between the MEAN quantities of two variables. So in the case of Total Weight in pounds for first born babies & the rest, it takes the MEAN weight of all first born babies & the MEAN weight of all the others & finds the mean difference which has to be divided by the combined standard deviations of the two groups. Pooled standard deviation is the average of the standard deviations of the individual groups.
 
 ```meanTotalWeightFirstBabies = firsts.totalwgt_lb.mean()
 meanTotalWeightOthersBabies = others.totalwgt_lb.mean()
